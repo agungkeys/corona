@@ -17,5 +17,8 @@
             <img src="assets/img/sample/avatar/avatar1.jpg" alt="image" class="imaged w32">
             <span class="badge badge-danger">6</span>
         </a> -->
+        <a onclick="reloadPage();">
+            <ion-icon name="reload-outline"></ion-icon>
+        </a>
     </div>
 </div>

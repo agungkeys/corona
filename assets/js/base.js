@@ -1,14 +1,11 @@
 ///////////////////////////////////////////////////////////////////////////
-// Pull To Refresh
-$(document).ready(function() {
-  PullToRefresh.init({
-    mainElement: "#appCapsule",
-    onRefresh: function() {
-      location.reload();
-    }
-  });
-});
+function reloadPage(){
+  location.reload();
+}
 
+function laporSekarang(){
+  window.location.replace("index.php?page=form");
+}
 // Loader
 $(document).ready(function() {
   setTimeout(() => {
@@ -18,7 +15,7 @@ $(document).ready(function() {
   setTimeout(() => {
     var pageTemp = "index.php"
     var pathTemp = pageTemp+window.location.search;
-    console.log("menunya====", pathTemp);
+    // console.log("menunya====", pathTemp);
     // $("ul li.nav-item a[href='" + pathTemp + "']").parent().parent().addClass('show');
     if(pathTemp === 'index.php'){
       $("#menu-footer a[href='index.php?page=home']").addClass('active'); 
@@ -27,6 +24,7 @@ $(document).ready(function() {
     }
   },100);
 
+  
   $("#input-daerah-kunjungan").hide();
   $("input[name=bepergian]:radio").change(function () {
     var change = $("input[name='bepergian']:checked").val();
@@ -36,6 +34,14 @@ $(document).ready(function() {
       $("#input-daerah-kunjungan").hide();
     }
   })
+
+  // PullToRefresh.init({
+  //   mainElement: "#appCapsule",
+  //   onRefresh: function() {
+  //     location.reload();
+  //   }
+  // });
+  
 });
 ///////////////////////////////////////////////////////////////////////////
 

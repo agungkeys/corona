@@ -12,12 +12,12 @@
       name="viewport"
       content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover"
     />
-    <meta name="description" content="Finapp HTML Mobile Template" />
+    <meta name="description" content="Bontang Tanggap COVID-19" />
     <meta
       name="keywords"
-      content="bootstrap, mobile template, cordova, phonegap, mobile, html, responsive"
+      content="corona, covid19, bontang tanggap corona"
     />
-    <link
+    <!-- <link
       rel="apple-touch-icon"
       sizes="180x180"
       href="assets/img/apple-touch-icon.png"
@@ -27,8 +27,8 @@
       type="image/png"
       href="assets/img/favicon.png"
       sizes="32x32"
-    />
-    <link rel="shortcut icon" href="assets/img/favicon.png" />
+    /> -->
+    <!-- <link rel="shortcut icon" href="assets/img/favicon.png" /> -->
   </head>
 
   <body>
@@ -65,12 +65,13 @@
     <!-- Ionicons -->
     <!-- <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script> -->
     <script type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"></script>
+    <!-- <script nomodule="" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.js"></script> -->
     <!-- Owl Carousel -->
     <script src="assets/js/plugins/owl-carousel/owl.carousel.min.js"></script>
     <!-- Pull To Refresh Js File -->
-    <script src="//unpkg.com/hammer-touchemulator@0.0.2/touch-emulator.js"></script>
+    <!-- <script src="//unpkg.com/hammer-touchemulator@0.0.2/touch-emulator.js"></script>
     <script>TouchEmulator()</script>
-    <script src="assets/js/plugins/pulltorefresh/pulltorefresh.js"></script>
+    <script src="assets/js/plugins/pulltorefresh/pulltorefresh.js"></script> -->
     <!-- <script src="assets/js/plugins/pulltorefresh/touch-emulator.js"></script> -->
     <!-- Base Js File -->
     <script src="assets/js/base.js"></script>

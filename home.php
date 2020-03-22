@@ -7,7 +7,7 @@
       <div class="balance">
         <div class="row">
           <div class="col-12">
-            <span class="title"><?php echo $greetings; ?>, Kawan</span>
+            <span class="title"><?php echo $greetings; ?>,</span>
             <span>Bagi masyarakat yang baru datang dari luar Kota Bontang dapat melaporkan diri anda melalui klik tombol dibawah ini.</span>
           </div>
         </div>
@@ -17,7 +17,7 @@
   </div>
   <!-- Location Card -->
   <div class="section ">
-    <button type="button" class="btn btn-primary btn-lg btn-block mt-2" href="index.php?page=form">
+    <button type="button" onclick="laporSekarang();" class="btn btn-primary btn-lg btn-block mt-2">
         <ion-icon name="document-text-outline"></ion-icon>
         Lapor Sekarang !
     </button>
