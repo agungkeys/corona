@@ -24,7 +24,7 @@
   </div>
 
   <div class="row">
-    <img src="assets/img/corona.png" alt="image" class="px-5 pt-3" style="width: 100%; height: 100%;" />
+    <img src="assets/img/corona-pic.png" alt="image" class="px-5 pt-3" style="width: 100%; height: 100%;" />
   </div>
 
   <!-- * Stats -->
@@ -92,9 +92,9 @@
 
   <div class="section mt-1 mb-5">
     <ul class="pb-5">
-      <li class="text-success">ODP : Orang Dalam Pemantauan</li>
-      <li class="text-warning">PDP : Pasien Dalam Pengawasan</li>
-      <li class="text-danger">Positif : Kasus Terkonfirmasi COVID-19</li>
+      <li class="text-success"><span class="text-dark sm">ODP : Orang Dalam Pemantauan</span></li>
+      <li class="text-warning"><span class="text-dark sm">PDP : Pasien Dalam Pengawasan</span></li>
+      <li class="text-danger"><span class="text-dark sm">Positif : Kasus Terkonfirmasi COVID-19</span></li>
     </ul>
   </div>
 </div>
