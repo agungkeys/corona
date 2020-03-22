@@ -26,5 +26,76 @@
   <div class="row">
     <img src="assets/img/corona.png" alt="image" class="px-5 pt-3" style="width: 100%; height: 100%;" />
   </div>
+
+  <!-- * Stats -->
+  <div class="section">
+    <div class="row mt-2">
+        <div class="col-4">
+            <div class="stat-box text-center">
+                <div class="title">ODP</div>
+                <div class="value text-success">104</div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="stat-box text-center">
+                <div class="title">PDP</div>
+                <div class="value text-warning">24</div>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="stat-box text-center">
+                <div class="title">Positif</div>
+                <div class="value text-danger">0</div>
+            </div>
+        </div>
+    </div>
+  </div>
+  <!-- * Stats -->
+
+  <div class="section mt-4">
+    <div class="section-title">Statistik per/ Kelurahan</div>
+    <ul class="listview flush transparent simple-listview no-space">
+      <li>
+          <span>Gunung Elai</span>
+          <span>
+            <span class="text-success">2&nbsp;</span>|
+            <span class="text-warning">&nbsp;1&nbsp;</span>|
+            <span class="text-danger">&nbsp;0</span>
+          </span>
+      </li>
+      <li>
+          <span>Api-api</span>
+          <span>
+            <span class="text-success">25&nbsp;</span>|
+            <span class="text-warning">&nbsp;1&nbsp;</span>|
+            <span class="text-danger">&nbsp;0</span>
+          </span>
+      </li>
+      <li>
+          <span>Loktuan</span>
+          <span>
+            <span class="text-success">13&nbsp;</span>|
+            <span class="text-warning">&nbsp;0&nbsp;</span>|
+            <span class="text-danger">&nbsp;0</span>
+          </span>
+      </li>
+      <li>
+          <span>Satimpo</span>
+          <span>
+            <span class="text-success">2&nbsp;</span>|
+            <span class="text-warning">&nbsp;0&nbsp;</span>|
+            <span class="text-danger">&nbsp;0</span>
+          </span>
+      </li>
+    </ul>
+  </div>
+
+  <div class="section mt-1 mb-5">
+    <ul class="pb-5">
+      <li class="text-success">ODP : Orang Dalam Pemantauan</li>
+      <li class="text-warning">PDP : Pasien Dalam Pengawasan</li>
+      <li class="text-danger">Positif : Kasus Terkonfirmasi COVID-19</li>
+    </ul>
+  </div>
 </div>
 <!-- * App Capsule -->
