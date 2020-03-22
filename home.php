@@ -24,7 +24,7 @@
   </div>
 
   <div class="row">
-    <img src="assets/img/corona-pic-new.png" alt="image" class="px-5 pt-3" style="width: 100%; height: 100%;" />
+    <img src="assets/img/corona.png" alt="image" class="px-5 pt-3" style="width: 100%; height: 100%;" />
   </div>
 
   <!-- * Stats -->
