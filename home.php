@@ -33,13 +33,13 @@
         <div class="col-4">
             <div class="stat-box text-center">
                 <div class="title">ODP</div>
-                <div class="value text-success">104</div>
+                <div class="value text-success">1</div>
             </div>
         </div>
         <div class="col-4">
             <div class="stat-box text-center">
                 <div class="title">PDP</div>
-                <div class="value text-warning">24</div>
+                <div class="value text-warning">2</div>
             </div>
         </div>
         <div class="col-4">
@@ -58,23 +58,23 @@
       <li>
           <span>Gunung Elai</span>
           <span>
-            <span class="text-success">2&nbsp;</span>|
-            <span class="text-warning">&nbsp;1&nbsp;</span>|
+            <span class="text-success">0&nbsp;</span>|
+            <span class="text-warning">&nbsp;0&nbsp;</span>|
             <span class="text-danger">&nbsp;0</span>
           </span>
       </li>
       <li>
           <span>Api-api</span>
           <span>
-            <span class="text-success">25&nbsp;</span>|
-            <span class="text-warning">&nbsp;1&nbsp;</span>|
+            <span class="text-success">0&nbsp;</span>|
+            <span class="text-warning">&nbsp;0&nbsp;</span>|
             <span class="text-danger">&nbsp;0</span>
           </span>
       </li>
       <li>
           <span>Loktuan</span>
           <span>
-            <span class="text-success">13&nbsp;</span>|
+            <span class="text-success">0&nbsp;</span>|
             <span class="text-warning">&nbsp;0&nbsp;</span>|
             <span class="text-danger">&nbsp;0</span>
           </span>
