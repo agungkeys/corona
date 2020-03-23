@@ -56,6 +56,17 @@
           </div>
         </div>
         <div class="form-group boxed">
+          <div class="input-wrapper">
+            <label class="label" for="kecamatan">Kecamatan</label>
+            <select class="form-control custom-select" id="kecamatan">
+              <option value="0">- Pilih Kecamatan -</option>
+              <option value="Bontang Utara">Bontang Utara</option>
+              <option value="Bontang Barat">Bontang Barat</option>
+              <option value="Bontang Selatan">Bontang Selatan</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group boxed">
             <div class="input-wrapper">
                 <label class="label" for="hp">Nomor HP.</label>
                 <input type="number" class="form-control" id="hp" placeholder="Masukkan Nomor HP. Anda">
