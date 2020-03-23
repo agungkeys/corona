@@ -33,13 +33,13 @@
         <div class="col-4">
             <div class="stat-box text-center">
                 <div class="title">ODP</div>
-                <div class="value text-success">1</div>
+                <div class="value text-success">0</div>
             </div>
         </div>
         <div class="col-4">
             <div class="stat-box text-center">
                 <div class="title">PDP</div>
-                <div class="value text-warning">2</div>
+                <div class="value text-warning">0</div>
             </div>
         </div>
         <div class="col-4">
@@ -82,7 +82,7 @@
       <li>
           <span>Satimpo</span>
           <span>
-            <span class="text-success">2&nbsp;</span>|
+            <span class="text-success">0&nbsp;</span>|
             <span class="text-warning">&nbsp;0&nbsp;</span>|
             <span class="text-danger">&nbsp;0</span>
           </span>
